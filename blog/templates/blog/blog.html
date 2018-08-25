@@ -6,19 +6,19 @@
     <title>Title</title>
 </head>
 <body>
-<a href="{% url 'home' %}">Home</a>
+<a href="{% url 'home' %}">Home</a> 
 <a href="{% url 'blog' %}">Blog</a>
 <a href="{% static 'Muher_Resume.pdf' %}" target="_blank">Resume</a>
 <ul>
-    {% for project in projects.all %}
+    {% for post in blog.all %}
     <li>
-        <img src="{{ project.image.url }}" width="300px"><br/>
-        {{ project.summary }}
+        <a href="{% url 'content' post.id %}">{{ post.title }}</a> <br/>
+        {{ post.date_modified }}<br/>
+        <img src="{{ post.image.url }}" width="200px"><br/>
+        {{ post.summary }}
     </li>
     {% endfor %}
 </ul>
-
-
 
 </body>
 </html>
