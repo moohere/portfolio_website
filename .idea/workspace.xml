@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0192cef-cafc-45a9-9a40-1f5621dc8882" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/blog/templates/blog/blog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templates/blog/content.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/static/Muher_Resume.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/projects/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/templates/projects/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/templates/projects/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/blog.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,13 +40,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="9" />
-          <entry key="html" value="687" />
+          <entry key="html" value="688" />
           <entry key="py" value="2151" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="687" />
+          <entry key="HTML" value="688" />
           <entry key="PLAIN_TEXT" value="9" />
           <entry key="Python" value="2151" />
         </counts>
@@ -67,11 +56,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/portfolio/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="124" column="17" selection-start-line="124" selection-start-column="17" selection-end-line="124" selection-end-column="17" />
+            <state relative-caret-position="505">
+              <caret line="80" column="28" selection-start-line="80" selection-start-column="17" selection-end-line="80" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -85,7 +74,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/templates/blog/blog.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
@@ -425,13 +414,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/portfolio/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="124" column="17" selection-start-line="124" selection-start-column="17" selection-end-line="124" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -472,6 +454,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="80" column="28" selection-start-line="80" selection-start-column="17" selection-end-line="80" selection-end-column="28" />
         </state>
       </provider>
     </entry>
