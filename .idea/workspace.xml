@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0192cef-cafc-45a9-9a40-1f5621dc8882" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,14 +41,14 @@
         <counts>
           <entry key="gitignore" value="9" />
           <entry key="html" value="688" />
-          <entry key="py" value="2151" />
+          <entry key="py" value="2228" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="688" />
           <entry key="PLAIN_TEXT" value="9" />
-          <entry key="Python" value="2151" />
+          <entry key="Python" value="2228" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -59,8 +59,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/portfolio/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
-              <caret line="80" column="28" selection-start-line="80" selection-start-column="17" selection-end-line="80" selection-end-column="28" />
+            <state relative-caret-position="731">
+              <caret line="137" column="8" selection-start-line="137" selection-start-column="8" selection-end-line="137" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -96,7 +96,7 @@
         <entry file="file://$PROJECT_DIR$/blog/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
               <folding>
                 <element signature="e#0#54#0" expanded="true" />
                 <marker date="1535226842479" expanded="true" signature="149:154" ph="..." />
@@ -143,10 +143,10 @@
         <option value="$PROJECT_DIR$/projects/models.py" />
         <option value="$PROJECT_DIR$/blog/urls.py" />
         <option value="$PROJECT_DIR$/blog/views.py" />
-        <option value="$PROJECT_DIR$/portfolio/settings.py" />
         <option value="$PROJECT_DIR$/projects/templates/projects/home.html" />
         <option value="$PROJECT_DIR$/blog/templates/blog/content.html" />
         <option value="$PROJECT_DIR$/blog/templates/blog/blog.html" />
+        <option value="$PROJECT_DIR$/portfolio/settings.py" />
       </list>
     </option>
   </component>
@@ -417,7 +417,7 @@
     <entry file="file://$PROJECT_DIR$/blog/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
           <folding>
             <element signature="e#0#54#0" expanded="true" />
             <marker date="1535226842479" expanded="true" signature="149:154" ph="..." />
@@ -459,8 +459,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/portfolio/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="80" column="28" selection-start-line="80" selection-start-column="17" selection-end-line="80" selection-end-column="28" />
+        <state relative-caret-position="731">
+          <caret line="137" column="8" selection-start-line="137" selection-start-column="8" selection-end-line="137" selection-end-column="8" />
         </state>
       </provider>
     </entry>
