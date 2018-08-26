@@ -1,24 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
     {% load staticfiles %}
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+
+    <script src="{% static 'sidenav.js' %}"></script>
     <title>Title</title>
 </head>
-<body>
-<a href="{% url 'home' %}">Home</a>
-<a href="{% url 'blog' %}">Blog</a>
-<a href="{% static 'Muher_Resume.pdf' %}" target="_blank">Resume</a>
-<ul>
-    {% for post in blog.all %}
-    <li>
-        <a href="{% url 'content' post.id %}">{{ post.title }}</a> <br/>
-        {{ post.date_modified }}<br/>
-        <img src="{{ post.image.url }}" width="200px"><br/>
-        {{ post.summary }}
-    </li>
-    {% endfor %}
-</ul>
+<body class="container">
+<nav>
+    <div class="nav-wrapper">
+      <a href="{% url 'home' %}" class="brand-logo center">Muher</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 
+      <ul class="left hide-on-med-and-down">
+        <li><a href="{% url 'home' %}">Home</a></li>
+        <li class="active"><a href="{% url 'blog' %}">Blog</a></li>
+      </ul>
+    </div>
+</nav>
+
+<ul class="sidenav" id="mobile-demo">
+    <li><a href="{% url 'home' %}">Home</a></li>
+    <li><a href="{% url 'blog' %}">Blog</a></li>
+    <li><a href="{% static 'Muher_Resume.pdf' %}" target="_blank">Resume</a></li>
+  </ul>
+    <div class="divider"></div>
+    <div class="section">
+
+
+      <div class="row">
+      {% for post in blog.all %}
+        <div class="col s12">
+          <div class="card yellow lighten-5">
+            <div class="card-content">
+              <span class="card-title">{{ post.title }}</span>
+              {{ post.date_modified }}
+              <p>{{ post.summary }}</p>
+            </div>
+            <div class="card-action">
+                <a href="{% url 'content' post.id %}">Read More</a>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+      </div>
+    </div>
+    <div class="divider"></div>
 </body>
 </html>
