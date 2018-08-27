@@ -1,10 +1,11 @@
 from django.db import models
+from ckeditor_uploader.fields import RichTextUploadingField
 
 # Create your models here.
 class Project(models.Model):
     image = models.ImageField(upload_to='images/', blank=True)
-    summary = models.CharField(max_length=200)
-    text = models.TextField(max_length=200, default="Text")
+    summary = models.CharField(max_length=300)
+    body = RichTextUploadingField()
 
     def __str__(self):
         return self.summary
