@@ -31,6 +31,8 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'ckeditor_uploader',
+    'ckeditor',
     'blog.apps.BlogConfig',
     'projects.apps.ProjectsConfig',
     'django.contrib.admin',
@@ -131,6 +133,8 @@ STATIC_URL = '/static/'
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
+
+CKEDITOR_UPLOAD_PATH = "uploads/"
 
 try:
      from .local_settings import *
