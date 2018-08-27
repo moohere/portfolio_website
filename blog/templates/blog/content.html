@@ -7,42 +7,40 @@
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
     <script src="{% static 'sidenav.js' %}"></script>
     <title>{{ blog.title }}</title>
 </head>
-<body class="container">
-<div>
-<nav>
-    <div class="nav-wrapper">
-      <a href="{% url 'home' %}" class="brand-logo center">Muher</a>
-      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+<body>
+    <nav>
+        <div class="nav-wrapper grey darken-3">
+            <a href="{% url 'home' %}" class="brand-logo center">Muher</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 
-      <ul class="left hide-on-med-and-down">
-        <li><a href="{% url 'home' %}">Home</a></li>
-        <li class="active"><a href="{% url 'blog' %}">Blog</a></li>
-      </ul>
-    </div>
-</nav>
+            <ul class="left hide-on-med-and-down">
+                <li><a href="{% url 'home' %}">Home</a></li>
+                <li class="active"><a href="{% url 'blog' %}">Blog</a></li>
+            </ul>
+        </div>
+    </nav>
     <ul class="sidenav" id="mobile-demo">
-    <li><a href="{% url 'home' %}">Home</a></li>
-    <li><a href="{% url 'blog' %}">Blog</a></li>
-    <li><a href="{% static 'Muher_Resume.pdf' %}" target="_blank">Resume</a></li>
-  </ul>
-    <div class="divider"></div>
-
-    <div class="section">
-    <h1>{{ blog.title }}</h1>
-    {{ blog.date_posted }}<br/>
-    <p>
-        {{ blog.body|safe }}
-    </p><br/>
+        <li><a href="{% url 'home' %}">Home</a></li>
+        <li><a href="{% url 'blog' %}">Blog</a></li>
+        <li><a href="{% static 'Muher_Resume.pdf' %}" target="_blank">Resume</a></li>
+    </ul>
+    <div class="container">
+        <div class="section">
+            <h1>{{ blog.title }}</h1>
+            {{ blog.date_posted }}<br/>
+            <p>
+            {{ blog.body|safe }}
+            </p><br/>
+        </div>
+        <div class="divider"></div>
     </div>
-    <div class="divider"></div>
-
-</div>
 </body>
 </html>
