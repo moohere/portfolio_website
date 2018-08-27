@@ -6,7 +6,7 @@ class Blog(models.Model):
     title = models.CharField(max_length = 250)
     date_posted = models.DateTimeField()
     body = models.TextField()
-    content = RichTextUploadingField()
+    #content = RichTextUploadingField()
     image = models.ImageField(upload_to='images/', blank=True)
 
     def __str__(self):
