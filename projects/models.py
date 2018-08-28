@@ -5,7 +5,6 @@ from ckeditor_uploader.fields import RichTextUploadingField
 class Project(models.Model):
     image = models.ImageField(upload_to='images/', blank=True)
     summary = models.CharField(max_length=250)
-    body = RichTextUploadingField()
 
     def __str__(self):
         return self.summary
